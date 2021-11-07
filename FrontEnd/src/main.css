@@ -1,0 +1,48 @@
+/*** Reset styles ***/
+ html,body, body * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+    color:inherit;
+    background-color:inherit;
+ }
+
+#nav-wrap {
+    align-items: center;
+    text-align: center;
+}
+ul {
+    display: inline;
+    text-align: center;
+}
+#nav-wrap ul {
+    list-style-type: none;
+    margin: auto;
+}
+li{
+    display: inline;
+    margin: 50px 30px 10px 20px;
+    padding: 10px;
+}
+li:hover {
+    background-color: navy;
+    color: white;
+}
+.smoothscroll {
+    text-decoration: none;
+    border: none;
+    width: auto;
+}
+#profile{
+
+}
+
+ body {
+
+    color:inherit;
+    background-color:inherit
+}
+#survey-main{
+    display: flex !important;
+    justify-content: center;
+}

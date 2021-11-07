@@ -1,0 +1,117 @@
+.d-flex{
+    display: flex !important;
+    justify-content: center;
+}
+.main-div{
+    margin: 50px 0px 0px 0px !important;
+    padding: 24px !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    box-shadow: 0 1px 0 rgba(27, 31, 36, 0.04) !important;
+    background-color: #0c161f;
+    border-radius: 6px !important;
+    border: 1px solid #202637;
+}
+
+.login-register {
+    margin-left: 1.2em !important;
+    width: 550px;
+}
+.nav-buttons {
+    padding-top: 0px;
+    opacity: 1;
+    margin-bottom: 1.5em;
+  }
+#loginBtn, #registerBtn {
+    border: none;
+    transition: all .5s ease;
+    text-transform: uppercase;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+    border-bottom: 1px solid blue;
+    padding: 5px 10px 20px 10px;
+    font-size: 16px;
+    margin-right: 0px;
+    color: white;
+    background-color: #0c162d;
+}
+.signup-text-prompt {
+    color: #00cfc8;
+}
+.login-input-box{
+    display: block;
+    border: 1px solid hsla(225, 4%, 22%, 0.856);
+    margin: 1px 0px;
+    width: 50%;
+    padding: 5px;
+    color: white;
+    background-color: #0c162d;
+    box-shadow: 1px solid white;
+}
+.forgot-div{
+    display: flex;
+    margin-top: 30px;
+}
+.forgot-btn{
+    padding: 10px;
+    background-color: #0c162d;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px 0px 0px 100px;
+}
+.login-btn{
+    padding:  10px 30px ;
+    background-color: #0c162d;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.login-btn:hover .forgot-btn:hover{
+    background-color: rgb(27, 114, 27);
+    color: white;
+}
+input:focus-visible {
+    outline: none;
+    border: 1px solid #00cfc8;
+}
+.text-gray-mktg {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    color: #627597 !important;
+}
+.otp {
+    transition: all 0.5s linear;
+    letter-spacing: 30px;
+    border: none;
+    width: 50%;
+    border: 1px solid #202637 !important;
+    background-color: #0c162d;
+    text-align: center;
+    color: white;
+}
+.otp-div{
+    margin: 30px 0px;
+}
+.btn-link {
+    display: inline-block;
+    padding: 0;
+    font-size: inherit;
+    color: #0969da;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.create-survey-edit:hover{
+    background-color: navy;
+    color: white;
+}

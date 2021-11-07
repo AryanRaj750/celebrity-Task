@@ -1,0 +1,25 @@
+$margin: 24px !important;
+$padding: 24px !important;
+
+$backeground-color: #0c162d;
+$border: 1px solid #202637;
+$border-radius: 6px !important;
+$box-shadow: 0 1px 0 rgba(27, 31, 36, 0.04) !important;
+
+$font-size: 16px !important;
+$text-transform: uppercase;
+$font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+
+.text-mono{
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+
+}
+// label{
+//     display: block;
+//     margin: 3px 0;
+//     font-size: 14px;
+// }
+
+
+@import 'styles/login';
+@import 'styles/signup';

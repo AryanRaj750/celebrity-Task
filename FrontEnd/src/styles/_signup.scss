@@ -1,0 +1,48 @@
+// #signup-box {
+//     margin-left: 1.2em !important;
+//     height: 500px;
+//     width: 550px;
+// }
+.signup-input-box{
+    display: inline-flex;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    width: 50%;
+    padding: 5px;
+    color: white;
+    background-color: #131b11;
+    // -webkit-text-fill-color: #00cfc8;
+
+}
+.signup-div{
+   margin-left: 0px;
+   width: 100px;
+}
+#signup-btn{
+
+    padding: 10px 30px ;
+    background-color: #0c162d;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+#signup-btn:hover{
+    background-color: rgb(27, 114, 27);
+    color: white;
+}
+// .cont-btn{
+//     width: 150;
+//     justify-content: center;
+//     padding: 10px;
+//     background-color: #0c162d;
+//     color: white;
+//     margin: 0px 0;
+//     margin-left: 30px;
+//     border: none ;
+//     text-transform: uppercase;
+// }
+.login-btn:hover, .forgot-btn:hover{
+    background-color: aquamarine;
+    color: black;
+}
